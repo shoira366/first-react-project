@@ -1,0 +1,94 @@
+.container {
+    width: 1137px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
+a {
+    text-decoration: none;
+}
+
+.header {
+    padding: 22px 0;
+    background: #FFFFFF;
+    box-shadow: 0px 1px 4px rgba(0, 0, 0, 0.25);
+}
+
+.header_nav {
+    display: flex;
+    align-items: center;
+}
+
+.dwidasa {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 10px;
+    line-height: 143.19%;
+    /* or 14px */
+
+    letter-spacing: 0.065em;
+
+    color: rgba(0, 0, 0, 0.6);
+}
+
+.samsara {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 10px;
+    line-height: 12px;
+    letter-spacing: 0.015em;
+    color: rgba(38, 50, 56, 0.8);
+}
+
+.indonesia {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 10px;
+    line-height: 12px;
+    letter-spacing: -0.05em;
+    color: #263238;
+}
+
+.logo-box {
+    display: flex;
+    margin-right: 108px;
+}
+
+.countries {
+    display: flex;
+    flex-direction: column;
+}
+
+.header_list {
+    display: flex;
+    list-style-type: none;
+}
+
+.header_list-item {
+    margin-right: 50px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 21px;
+}
+
+.header_list-item:nth-child(6) {
+    margin-right: 0;
+}
+
+.header_list-link {
+    color: rgba(31, 46, 53, 0.8);
+}
+
+.header_img-list {
+    margin-left: auto;
+    list-style-type: none;
+    display: flex;
+}
+
+.header_img-item:not(:last-child) {
+    margin-right: 24px;
+}
+.select{
+    margin-left: 20px;
+}

@@ -1,0 +1,16 @@
+*,*::before,*::after{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body{
+  font-family: "Arial";
+}
+.container{
+  width: 1210px;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+a{
+  text-decoration: none;
+}

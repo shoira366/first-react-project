@@ -1,0 +1,40 @@
+.info{
+    background: #F7F7F7;
+    padding: 57px 0 63px 0;
+}
+.info_big-box{
+    display: flex;
+    align-items: center;
+}
+.info_big-box::before{
+    content: '';
+    width: 453px;
+    height: 472px;
+    display: inline-block;
+
+    background-image: url('/src/Assets/Images/programmist.svg');
+    background-repeat: no-repeat;
+    background-size: 453px 472px;
+    margin-right: 82px;
+}
+.info_title{
+    font-style: normal;
+    font-weight: 500;
+    font-size: 32px;
+    line-height: 43px;
+    color: #1F2E35;
+    width: 464px;
+    margin-bottom: 24px;
+}
+.info_text{
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 27px;
+    color: #30444E;
+    width: 521px;
+}
+.textone{
+    margin-bottom: 35px;
+
+}

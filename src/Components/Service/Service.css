@@ -1,0 +1,86 @@
+.service{
+    padding-top: 116px;
+    padding-bottom: 87px;
+}
+.service_title{
+    font-style: normal;
+    font-weight: 500;
+    font-size: 32px;
+    line-height: 43px;
+    text-align: center;
+    color: #1F2E35;
+    margin-bottom: 41px;
+}
+.service_list{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.service_list-item{
+    margin-right: 53px;
+    list-style-type: none;
+}
+.service_list-item:last-child{
+    margin-right: 0;
+}
+.service_list-title{
+    font-style: normal;
+    font-weight: 500;
+    font-size: 28px;
+    line-height: 37px;
+    color: #EE4248;
+    margin-bottom: 15px;
+}
+.service_list-text{
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 27px;
+    color: #30444E;
+    width: 316px;
+    margin-bottom: 15px;
+}
+.service_list-link{
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 26px;
+    color: #FFFFFF;
+    background: #EE4248;
+    box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.25);
+    border-radius: 4px;
+    padding: 8px 16px;
+}
+.first-item::before{
+    content: '';
+    width: 100px;
+    height: 100px;
+    display: inline-block;
+
+    background-image: url('/src/Assets/Images/ourproduct.svg');
+    background-repeat: no-repeat;
+    background-size: 100px 100px;
+    margin-bottom: 15px;
+}
+.second-item::before{
+    content: '';
+    width: 100px;
+    height: 100px;
+    display: inline-block;
+
+    background-image: url('/src/Assets/Images/ourservice.svg');
+    background-repeat: no-repeat;
+    background-size: 100px 100px;
+    margin-bottom: 15px;
+}
+.third-item::before{
+    content: '';
+    width: 100px;
+    height: 100px;
+    display: inline-block;
+
+    background-image: url('/src/Assets/Images/ourtechnology.svg');
+    background-repeat: no-repeat;
+    background-size: 100px 100px;
+    margin-bottom: 15px;
+}

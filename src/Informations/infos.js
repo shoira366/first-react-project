@@ -1,0 +1,56 @@
+const information = {
+    eng: {
+        service: 'Servise',
+        product: 'Product',
+        technology: 'Technology',
+        about: 'About',
+        client: 'Client',
+        partner: 'Partner',
+        intro_title: 'Making the most of the ever-growing',
+        intro_title_red: 'Information Technology',
+        intro_text: 'Managed by a team of professional experts with extensive experience and impressive track records',
+        intro_link: 'Read More',
+        info_title: 'Welcome to',
+        info_title_red: 'Dwidasa Samsara Indonesia (DSI)',
+        info_text: 'Dwidasa Samsara Indonesia (DSI) was firstly established in 2010 by the founders, who each of them has a common end objective to innovate new creations by making the most of the ever-growing information technology through ',
+        half_info_text: '’s distinct front-end based application concept',
+        red: 'DSI',
+        info_text_second: 'Managed by a team of professional experts with extensive experience and impressive track records,',
+        info_text_second_half: 'believes that continuous improvements and innovations assure your business to run effectively and efficiently.',
+        service_title: 'Product and Service',
+        our_product: 'Our Product',
+        our_product_text: 'Our product is made on the base of our team’s careful research and analyses, ranging from internet based application.',
+        our_service: 'Our Service',
+        our_service_text: 'DSI’s shared service solutions focus on the front-end based software development, designed specifically for the banking and financial sectors.',
+        our_technology: 'Our Technology',
+        our_technology_text: 'First JAVA, runs on more than 850 million personal computers worldwide, and on billions of devices worldwide, including mobile and TV devices.'
+    },
+    ru: {
+        service: 'Услуга',
+        product: 'Продукт',
+        technology: 'Технология',
+        about: 'О',
+        client: 'Клиент',
+        partner: 'Партнер',
+        intro_title: 'Максимально эффективное использование постоянно растущих',
+        intro_title_red: 'Информационных технологий',
+        intro_text: 'Управляется командой профессиональных экспертов с большим опытом и впечатляющей репутацией.',
+        intro_link: 'Подробнее',
+        info_title: 'Добро пожаловать в',
+        info_title_red: 'Dwidasa Samsara Indonesia (DSI)',
+        info_text: 'Компания Dwidasa Samsara Indonesia (DSI) была впервые основана в 2010 году основателями, у каждого из которых есть общая конечная цель - создавать новые творения, максимально используя постоянно растущие информационные технологии через отличную концепцию внешнего интерфейса',
+        red: 'DSI',
+        info_text_second: 'Компания',
+        info_text_second_half: 'которой управляет команда профессиональных экспертов с обширным опытом и впечатляющим послужным списком, считает, что постоянные улучшения и инновации гарантируют эффективное и действенное ведение вашего бизнеса.',
+        service_title: 'Продукты и Услуги',
+        our_product: 'Наш Продукт',
+        our_product_text: 'Наш продукт создан на основе тщательных исследований и анализов нашей команды, начиная с интернет-приложений.',
+        our_service: 'Наш Сервис',
+        our_service_text: 'Решения DSI для общих служб ориентированы на разработку программного обеспечения на основе внешнего интерфейса, разработанного специально для банковского и финансового секторов.',
+        our_technology: 'Наши Технологии',
+        our_technology_text: 'First JAVA работает на более чем 850 миллионах персональных компьютеров по всему миру и на миллиардах устройств по всему миру, включая мобильные и телевизионные устройства.'
+    }
+}
+
+
+export default information
